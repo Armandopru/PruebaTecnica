@@ -1,19 +1,62 @@
-.body{
-    background-color: aquamarine;
+body{
+    background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  position: relative;
+  
+
 }
 .cargo{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: orange;
-    align-content: center;
+    padding: 10px 0;
+    text-align: center;
 }
+.informacion{
+    position: relative;
+    width: 1000px;
+    height: 290px;
+  }
+.informacion {
+    position: absolute;
+    top: 200px;
+    right: 0;
+    width: 1000px;
+    height: 150px;
+  }
 .titulo{
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     color: cadetblue;
+    text-align: center;
+}
+.informacion{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
 }
 .experiencia{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+    position: relative;
+    width: 1000px;
+    height: 290px;
+  }
+.experiencia {
+    position: absolute;
+    top: 340px;
+    right: 0;
+    width: 1000px;
+    height: 50px;
+  }
+  .estudios{
+    position: relative;
+    width: 1000px;
+    height: 290px;
+  }
+.estudios {
+    position: absolute;
+    top: 390px;
+    right: 0;
+    width: 1000px;
+    height: 50px;
+  }
 .estudios{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
